@@ -4,12 +4,22 @@
 .account-form_image-label {
   @apply border flex h-24 w-24 items-center justify-center rounded-full bg-white !important;
 }
+.bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #095a55;
+}
+.bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100vh;
+  background: #fff38e;
+}
 .form{
-/*    position: relative;*/
-    width: 350px;
-    padding: 40px 40px 60px;
-    background: #ebf5fc;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: -5px -5px 15px rgba(255,255,255,.8), 5px 5px 10px rgba(0,0,0,.1);
+	background: #095a55;
 }
